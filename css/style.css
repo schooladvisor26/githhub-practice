@@ -1,0 +1,32 @@
+.column {
+    float: left;
+    width: 22%;
+    padding: 10px;
+    height: 300px;
+}
+
+/* Clear floats after the columns */
+/* How To Create a Four Column Layout */
+
+.row:after {
+    display: table;
+    clear: both;
+}
+
+.a {
+    background-color: chocolate;
+}
+
+.b {
+    background-color: darkolivegreen;
+}
+
+.c {
+    background-color: darkorange;
+}
+
+.d {
+    background-color: honeydew;
+}
+
+/* W3Schools Tryit Editor used #aaa #bbb #ccc #ddd for colors. */
