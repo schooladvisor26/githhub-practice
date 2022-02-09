@@ -1,12 +1,24 @@
+body {
+    margin: 0;
+}
+/* 
+Original code from w3schools?
 .column {
     float: left;
-    width: 22%;
+    width: 25%;
     padding: 10px;
     height: 300px;
+} */
+
+.column {
+    width: 25vw;
+    height: 15vw;
+    float: left;
 }
 
 /* Clear floats after the columns */
-/* How To Create a Four Column Layout */
+/* How To Create a Four Column Layout on w3schools */
+/* I needed to adjust the margin like the instructor, Jimmy Hinojosa, did to make the columns fit on one page */
 
 .row:after {
     display: table;
@@ -26,7 +38,7 @@
 }
 
 .d {
-    background-color: honeydew;
+    background-color:cornflowerblue;
 }
 
 /* W3Schools Tryit Editor used #aaa #bbb #ccc #ddd for colors. */
