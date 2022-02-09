@@ -18,7 +18,8 @@ Original code from w3schools?
 
 /* Clear floats after the columns */
 /* How To Create a Four Column Layout on w3schools */
-/* I needed to adjust the margin like the instructor, Jimmy Hinojosa, did to make the columns fit on one page */
+/* I needed to adjust the margin like the instructor, Jimmy Hinojosa, did to make the columns fit on one page
+I did today 2-9-22 around 12:03 PM */
 
 .row:after {
     display: table;
